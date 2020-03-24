@@ -1,0 +1,15 @@
+name: XP Module
+commands:
+- name: reload
+  callback: commands/reload.lua
+  help: Reload all modules
+
+- name: xp
+  callback: commands/xp.lua
+  args: "[user:member]"
+  help: Show xp of a member (if not specified, you)
+
+- name: give
+  callback: commands/give.lua
+  args: "[target:member] <amount:number>"
+  help: Give xp to a member (if not specified, you)
