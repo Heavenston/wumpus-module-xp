@@ -1,9 +1,5 @@
 name: XP Module
 commands:
-- name: reload
-  callback: commands/reload.lua
-  help: Reload all modules
-
 - name: xp
   callback: commands/xp.lua
   args: "[user:member]"
